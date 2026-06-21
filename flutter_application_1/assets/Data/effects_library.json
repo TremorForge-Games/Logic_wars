@@ -1,0 +1,112 @@
+{
+    "effects_library": [
+    {
+      "id": 101,
+      "name": "Discard",
+      "desc": "Target discards X cards.",
+      "params": ["amount"]
+    },
+    {
+      "id": 102,
+      "name": "Equalize",
+      "desc": "Set target card's CRB equal to this card's CRB.",
+      "params": []
+    },
+    {
+      "id": 103,
+      "name": "CRB Change",
+      "desc": "Modify target card's CRB by amount. Negative reduces, positive buffs.",
+      "params": ["amount"]
+    },
+    {
+      "id": 104,
+      "name": "Swap",
+      "desc": "Swap CRB between this card and target card.",
+      "params": []
+    },
+    {
+      "id": 105,
+      "name": "MultiHit",
+      "desc": "This card attacks X times in one turn.",
+      "params": ["amount"]
+    },
+    {
+      "id": 106,
+      "name": "Negate",
+      "desc": "Cancel target card's ability.",
+      "params": []
+    },
+    {
+      "id": 107,
+      "name": "Destroy",
+      "desc": "Destroy target card immediately.",
+      "params": []
+    },
+    {
+      "id": 108,
+      "name": "Force Reaction Constraint",
+      "desc": "Opponent must react using the card matching the specified constraint, or pass.",
+      "params": ["type"]
+    },
+    {
+      "id": 201,
+      "name": "INF Change",
+      "desc": "Modify target player's Influence by amount. Negative drains, positive grants.",
+      "params": ["amount"]
+    },
+    {
+      "id": 202,
+      "name": "Draw",
+      "desc": "Target player draws X cards.",
+      "params": ["amount"]
+    },
+    {
+      "id": 203,
+      "name": "Cost Change",
+      "desc": "Modify target card's play cost by amount. Negative reduces, positive increases.",
+      "params": ["amount"]
+    },
+    {
+      "id": 204,
+      "name": "Hand Swap",
+      "desc": "Swap this card with any card from the owner's hand before resolution.",
+      "params": []
+    },
+    {
+      "id": 205,
+      "name": "Loaded Choice",
+      "desc": "Target must choose one option from the choice array. Chosen effect is executed.",
+      "params": ["choice"]
+    },
+    {
+      "id": 301,
+      "name": "Persist",
+      "desc": "This card remains in play instead of being discarded after combat.",
+      "params": []
+    },
+    {
+      "id": 302,
+      "name": "Return to Hand",
+      "desc": "Return this card to the owner's hand instead of discarding after combat.",
+      "params": []
+    },
+    {
+      "id": 303,
+      "name": "Survive At",
+      "desc": "This card survives destruction once, remaining in play with the specified CRB.",
+      "params": ["crb"]
+    },
+    {
+      "id": 304,
+      "name": "Silence",
+      "desc": "Prevent target from using its ability.",
+      "params": []
+    },
+    {
+      "id": 305,
+      "name": "Direct Damage",
+      "desc": "Deal X damage directly to target, ignoring CRB.",
+      "params": ["amount"]
+    }
+  ]
+}

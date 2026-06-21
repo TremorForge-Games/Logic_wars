@@ -1,0 +1,34 @@
+{
+  "trigger_library": [
+    {
+      "id": 1,
+      "name": "Lead",
+      "desc": "Triggers if in the Lead position list."
+    },
+    {
+      "id": 2,
+      "name": "Reaction",
+      "desc": "Triggers if in the Reaction position list."
+    },
+    {
+      "id": 3,
+      "name": "Passive",
+      "desc": "Triggers automatically at the start of the turn, without needing to be in a specific position."
+    },
+    {
+      "id": 4,
+      "name": "Tie",
+      "desc": "Triggers when this card ties in combat."
+    },
+    {
+      "id": 5,
+      "name": "Survive",
+      "desc": "Triggers when this card survives combat."
+    },
+    {
+      "id": 6,
+      "name": "Combat",
+      "desc": "Triggers whenever this card participates in combat, whether attacking or defending."
+    }
+  ]
+}
